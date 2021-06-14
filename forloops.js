@@ -24,3 +24,35 @@ for (let i = 5; i <= 50; i++) {
     console.log(i);
   }
 }
+
+for (let i = 1; i < 7; i++) {
+  if (i === 1) {
+    console.log('$');
+  }
+  else if (i === 2) {
+    console.log('$$');
+  }
+  else if (i === 3) {
+    console.log('$$$');
+  }
+  else if (i === 4) {
+    console.log('$$$$');
+  }
+  else if (i === 5) {
+    console.log('$$$$$');
+  } else {
+    console.log('$$$$$$')
+  }
+}
+
+for (let j = 1; j < 100; j++) {
+  if (j % 5 && j % 3 === 0) {
+    console.log('FizzBuzz');
+  } else if (j % 5 === 0) {
+    console.log('Buzz');
+  } else if(j % 3 === 0) {
+    console.log('Fizz');
+  } else {
+    console.log(j);
+  }
+}
