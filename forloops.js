@@ -56,3 +56,11 @@ for (let j = 1; j < 100; j++) {
     console.log(j);
   }
 }
+
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for (num = 1; num < numbers.length; num++) {
+  if (num%3 === 0) {
+    console.log(num);
+  }
+}

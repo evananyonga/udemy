@@ -1,11 +1,11 @@
-#Udemy Web Developer Bootcamp
+Udemy Web Developer Bootcamp
 This is not a drill!!
 
 ##Datatypes and Structures in JavaScript
-* Integers, 
-* Strings, 
-* Booleans, 
-* Floats, 
+* Integers,
+* Strings,
+* Booleans,
+* Floats,
 * _null, unavailable_
 
 ##Useful builtin functions in JavaScript
@@ -14,7 +14,7 @@ This is not a drill!!
 ##Loops and Conditionals
 ######Boolean logic
 comparison operators: _>, >=, <, <=, ==, !=, ===, !==_
-== operator performs type coersion
+== operator performs type coercion
 The === operator is more specific and encouraged to use in comparisons
 
 Logical operators: _&&, ||, !_
@@ -28,4 +28,3 @@ If, Else if, if
   		console.log(i);
 	}
 ```
-
