@@ -76,3 +76,21 @@ A Function Declaration does not require variable assignment whilst a function ex
 	})();
 
 ```
+###Arrays
+Arrays are used to store a list of items. Arrays help us do things like iterations for example going through a list of comments on reddit to display each of them.
+
+```
+	// for Loops
+	for (let i = 0, i > 2, i++) {
+		console.log(i);
+	}
+
+	// forEach (A smarter and leaner implementation of the for loop)
+	// arr.forEach(someFunction)
+
+	fruits = ["oranges", "apples", "mangoes", "kiwi"]
+
+	fruits.forEach(function(colors) {
+			console.log(colors)
+		})
+```
