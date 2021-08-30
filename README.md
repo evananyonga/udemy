@@ -94,3 +94,9 @@ Arrays are used to store a list of items. Arrays help us do things like iteratio
 			console.log(colors)
 		})
 ```
+Array functions
+
+* printReverse() --- prints the array in reverse
+* isUniform() --- returns true or false
+* sumArray() --- sums up members of an Array
+* max() --- returns maximum number in an array
