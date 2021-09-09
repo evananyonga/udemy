@@ -94,9 +94,53 @@ Arrays are used to store a list of items. Arrays help us do things like iteratio
 			console.log(colors)
 		})
 ```
-Array functions
+###JavaScript Objects
+A data structure that stores data in key-value pairs
 
-* printReverse() --- prints the array in reverse
-* isUniform() --- returns true or false
-* sumArray() --- sums up members of an Array
-* max() --- returns maximum number in an array
+```
+	var person = {
+		name: "Travis",
+		age: 31,
+		city: "Kla"
+	}
+
+	<!-- how to access objects -->
+	// Using the bracket notation
+	person["name"]
+
+	// Using dot notation
+	person.city
+
+	```
+
+You can reassign an object's property using the '=' sign e.g
+```
+	person.age = 45
+
+```
+You can iniitailise objects in many ways:
+<!-- all at once -->
+```
+	var person = {
+		name: "Travis",
+		age: 31,
+		city: "Kla"
+	}
+
+```
+<!-- Using an empty object -->
+```
+	var person = {};
+	person.name = 'Travis';
+	person.age = 32;
+	person.city = "Kampala"
+
+```
+<!-- using object keyword -->
+```
+	var person = new Object();
+	person.name = 'Travis';
+	person.age = 32;
+	person.city = "Kampala"
+
+```
