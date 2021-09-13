@@ -144,3 +144,41 @@ You can iniitailise objects in many ways:
 	person.city = "Kampala"
 
 ```
+
+###The DOM
+####Manipulating the DOM
+
+<!-- You can use things like query selectors -->
+```
+	var item1 = document.querySelector('h1');
+	item1.style.color = "pink";
+
+```
+<!-- You can use functions to manipulate the DOM -->
+
+```
+	var bodi = document.querySelector('body');
+	var isBlue = false;
+
+	setInterval(function() {
+		if(isBlue) {
+			bodi.style.background === "#FFFFFF";
+		} else {
+			bodi.style.background === "#3498db";			
+		}
+		isBlue = !isBlue;
+	}, 1000);
+```
+
+<!-- Other querySelectors that can manipulate the DOM -->
+
+```
+	document.getElementById("someId");
+	document.getElementsByClassName("some-class");
+	document.getElementsByTagName("li");
+	document.querySelector('#someId');
+	document.querySelector('.someClass');
+	document.querySelector('li a.special');
+	document.querySelectorAll('.someClass');
+
+```
