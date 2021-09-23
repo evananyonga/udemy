@@ -182,3 +182,37 @@ You can iniitailise objects in many ways:
 	document.querySelectorAll('.someClass');
 
 ```
+
+<!-- Manipulating the style of a tag
+ - the right hand side of the assigned variable should be wrapped in strings
+-->
+
+```
+	var someTag = document.getElementById("someId");
+	someTag.style.color = "blue"; <! -- will change the color of that tag" -->
+	someTag.style.border = "10px solid red"; <! -- will change the border of that tag" -->
+
+```
+
+<!-- Making your code 'DRY'
+ - adding a class with JS
+ - changing the properties of that class -->
+
+```
+	var someTag = document.getElementById("someId");
+	someTag.classList.add("some-class")
+
+	.some-class {
+		color: blue;
+		border: 10px solid red;
+	}
+
+```
+<!-- Manipulating tag properties -->
+ One can manipulate tag properties like
+
+ - innerHTML
+ - textContent
+ - classList
+
+ <!-- Manipulating attributes with getAttribute() and setAttribute() -->
