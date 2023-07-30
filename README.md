@@ -7,6 +7,8 @@ This is not a drill!!
 * Booleans,
 * Floats,
 * _null, unavailable_
+* Arrays
+* Nodelist // The result of using the selector: var tags  = document.getElementsByClassName("some-class");
 
 ##Useful builtin functions in JavaScript
 **alert(), prompt()**
@@ -171,6 +173,7 @@ You can iniitailise objects in many ways:
 ```
 
 <!-- Other querySelectors that can manipulate the DOM -->
+Query selector always selects the first item with the specified ID/class
 
 ```
 	document.getElementById("someId");
