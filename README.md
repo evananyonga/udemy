@@ -185,3 +185,54 @@ Query selector always selects the first item with the specified ID/class
 	document.querySelectorAll('.someClass');
 
 ```
+#####Changing an element's style
+######Manually by using the style property
+```
+var tag = document.getElementById('highlight');
+tag.style.color = "blue";
+tag.style.border = "10px solid red";
+tag.style.fontSize = "70px";
+tag.style.background = "yellow";
+tag.style.marginTop = "200px";
+```
+Or Instead of using the above method, we can use classList
+With a css class defined,
+```
+.some-class {
+	color = "blue";
+	border = "10px solid red";
+	fontSize = "70px";
+	background = "yellow";
+	marginTop = "200px";
+}
+var tag = document.getElementById('highlight');
+tag.classList.add("some-class");
+tag.classList.remove("some-class");
+tag.classList.toggle("some-class");
+```
+
+#####Adding/removing classes
+#####Changing the content of a tag
+#####Changing attributes(src, href, etc)
+
+
+#####Changing an element's text
+```
+var tag = document.querySelector('p');
+tag.textContent = "blah blah blah"
+```
+
+```
+var tag = document.querySelector('p');
+tag.innerHTML = "blah blah blah"
+```
+
+#####Changing an element's attributes
+e.g href, src. This can be used in manipulating a slider to get different images by changing the src of an image
+
+```
+<a href="www.google.com">Link to Google</a>
+var link = document.querySelector("a");
+link.getAttribute("href");
+link.setAttribute("src", "http://github.com");
+```
