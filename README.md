@@ -236,3 +236,25 @@ var link = document.querySelector("a");
 link.getAttribute("href");
 link.setAttribute("src", "http://github.com");
 ```
+
+##Event Listeners
+#####Using the addEventListener method.
+It takes two arguments, the event and the function/method that manipulates the event.
+An object can have more than one event Listener
+```
+var h1 = document.querySelector("h1")
+h1.addEventListener("click", function () {
+    alert("The H1 was clicked");
+})
+h1.addEventListener("click", function () {
+    h1.style.backgroung = "Orange";
+})
+```
+
+If a list object is selected, anywhere that is clicked on the list will execute the event
+
+```
+document.querySelector("ul").addEventListener("click", function () {
+    console.log("You clicked the UL");
+});
+```
